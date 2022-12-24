@@ -1,0 +1,63 @@
+body {
+    background-image: url("ankara.jpg");
+    background-size: cover;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    
+}
+body:hover{
+    background: linear-gradient("200w.webp");
+}
+
+.container {
+    max-width: 60%;
+    margin: 5px auto;
+}
+
+h1 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: wheat;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: white;
+}
+
+button {
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+#increment-btn {
+    background: orange;
+}
+#increment-btn:hover {
+    font-size: 20px;
+    background: linear-gradient(black,blue);
+   
+}
+
+#save-btn {
+    background: green;
+}
+
+#save-btn:hover {
+    font-size:20px;
+    background: linear-gradient(red,black);
+}
+#save-el {
+    font-weight: bold;
+    color: white;
+}
+
